@@ -2,8 +2,8 @@ import os
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo, Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "").strip()
-WEBAPP_URL = os.environ.get("WEBAPP_URL", "").strip()
+BOT_TOKEN = os.environ.get("8823524687:AAGTIIRQDsPbqAyUO-_KwySI-znQAASi3VA", "").strip()
+WEBAPP_URL = os.environ.get("https://test123etn.netlify.app/", "").strip()
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not WEBAPP_URL.startswith("https://"):
